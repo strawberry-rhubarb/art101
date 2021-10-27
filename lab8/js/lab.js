@@ -9,17 +9,17 @@ function isEven(x){
 }
 
 //test function
-console.log("Is 1 even? ", myFunction(1));
-console.log("Is 2 even?",myFunction(2));
+console.log("Is 1 even? ", isEven(1));
+console.log("Is 2 even?", isEven(2));
 
 array = [69, 420, 8, 1111, 333, 444, 666, 16, 4]
 console.log("My array", array);
 
-var result = array.map(myFunction);
+var result = array.map(isEven);
 console.log("test of eveness of array:", result);
 
 var result = array.map(function(x){
   return x ** 0.5;
-}
+})
 
-console.log("squareroot of array:", results);
+console.log("squareroot of array:", result);

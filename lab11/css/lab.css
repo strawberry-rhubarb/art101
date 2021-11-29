@@ -1,0 +1,22 @@
+#content {
+  background-color: #ffb6c1;
+  width: 1000px;
+  min-height: 1000px
+}
+h1 {
+  color: green;
+  font-size: 150%;
+  font-family: "cursive";
+  text-indent: 350px;
+}
+.sectionbox {
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.special {
+  background-color: #c2e5d3;
+  border: solid 1px maroon;
+}

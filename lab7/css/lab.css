@@ -1,0 +1,12 @@
+#content {
+  background-color: #ffb6c1;
+  width: 1000px;
+  min-height: 1000px
+}
+
+h1 {
+  color: green;
+  font-size: 150%;
+  font-family: "cursive";
+  text-indent: 350px;
+}

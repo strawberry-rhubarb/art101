@@ -4,7 +4,7 @@
  * Lisence public domain
  */
  //prompt
- var scavenger = alert("find the right button!")
+
  // // Pick an URL from the numbers API: http://numbersapi.com/
  // // var targetUrl = "http://numbersapi.com/random";
  // var targetUrl = "https://api.kanye.rest/";
@@ -33,7 +33,7 @@
  //   });
  //
  // }
-
+ var scavenger = alert("find the right button!")
  // When a user clicks the button, use a jQuery AJAX call to fetch output from the numbers API
  $("#butt").click(function(){
     alert("You found me!");
